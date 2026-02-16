@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from datetime import datetime
 
-MY_NAME = "ARIBA IFTY"
+MY_NAME = "ARIBA"
 IMAGE_PATH = "Frame 2-Snapshot.png"
 
 
@@ -117,4 +117,5 @@ cv2.imwrite("task-b2-output.png", img)
 
 print("Detected objects:", count-1)
 print("Done.")
+
 
